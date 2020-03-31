@@ -13,10 +13,21 @@
 
 <div class="navbar">
 	<a href="https://owls-wonderland.github.io/UNIKALI/">Apie mus</a>
-	<a href="https://owls-wonderland.github.io/UNIKALI/blog">Blog</a>
-	<a href="https://owls-wonderland.github.io/UNIKALI/komanda/">Komanda</a>
+	<a href="https://owls-wonderland.github.io/UNIKALI/blog.htm">Blog</a>
+	<a href="https://owls-wonderland.github.io/UNIKALI/komanda.htm">Komanda</a>
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
 
 <h1>Mūsų komanda</h1>
 
