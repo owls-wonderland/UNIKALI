@@ -2,6 +2,9 @@ h1 {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: black;
 	text-align: center;
+	font-size:5vw;
+	margin-left: auto;
+	margin-right: auto;
 }
 .center {
 	display: block;
