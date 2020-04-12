@@ -30,17 +30,63 @@ p1{
 	text-align: justify;
 	font-size: 0.85vw;
 }
+
+
 .maintext{
 	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
+}
+.links{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 0.85vw;
+}
+@media screen and (max-width: 1000px) {
+.maintext {
+	width: 100%;
+	display: block;
+  }
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 25px;
+}
+h5{
+	font-size: 10px;
+}
+p{
+	font-size: 20px;
+}
+p1{
+	
+	font-size: 15px;
+}
+.links{
+	font-size: 15px;
+}
+}
+/*LOGO*/
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;	
+}
+@media screen and (max-width: 1000px) {
+  .logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;	
+}
 }
 
 /*TOP NAVIGATION BAR*/
 
 /* Style the top navigation bar */
 .navbar {
-	width: 60%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
   	overflow: auto; /* Hide overflow */
@@ -51,7 +97,7 @@ p1{
 .navbar a {
   	float: left; /* Make sure that the links stay side-by-side */
   	display: inline-block; /* Change the display to block, for responsive reasons (see below) */
-  	color: black; /* White text color */
+  	color: black; /* black text color */
   	text-align: center; /* Center the text */
 	font-family: "Lucida Console", Monaco, monospace;
   	padding: 14px 20px; /* Add some padding */
@@ -76,12 +122,12 @@ p1{
   }
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
     bottom:0;
-  }
+  }*/
   .navbar.responsive a {
     float: none;
     display: block;
@@ -93,10 +139,10 @@ p1{
 /*FOOTER*/
 
 .footer {
-	width: 60%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px; /* Some padding */
+	padding: 0.8vw; /* Some padding */
 	text-align: center; /* Center text*/
 	background:#FFD700; /* Black background */
 	color: white /* White text color*/
@@ -109,12 +155,12 @@ p1{
 	margin-right: auto;
 }
 .fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 30px;
+	padding: 0.5vw;
+	font-size: 0.25vw;
+	width: 3vw;
 	text-align: center;
 	text-decoration: none;
-	margin: 5px 2px;
+	margin: 0.1vw 0.2vw;
 	border-radius: 50%;
 }
 .fa:hover {
@@ -137,13 +183,13 @@ p1{
 	margin-right: auto;
 	width: 60%;
 }
-
-.center {
+@media screen and (max-width: 1000px) {
+.blogcolumn {
+	width: 100%;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
+  }
 }
+
 .stuffphoto {
 	display: block;
 	margin-left: auto;
@@ -162,9 +208,9 @@ p1{
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
 .column {
-	width: 60%;
+	width: 100%;
 	display: block;
   }
 }
