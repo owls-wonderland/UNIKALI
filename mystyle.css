@@ -56,7 +56,7 @@ h5{
 	font-size: 10px;
 }
 p{
-	font-size: 20px;
+	font-size: 15px;
 }
 p1{
 	
@@ -142,26 +142,26 @@ p1{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0.8vw; /* Some padding */
+	padding: 5px; /* Some padding */
 	text-align: center; /* Center text*/
 	background:#FFD700; /* Black background */
 	color: white /* White text color*/
 }
 /*Social media buttons*/
 .social{
-	float: none;
-	width: 60%;
+	float: center;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 .fa {
-	padding: 0.5vw;
-	font-size: 0.25vw;
-	width: 3vw;
+	padding: 5px;
+	font-size: 30px;
+	width: 50px;
 	text-align: center;
 	text-decoration: none;
-	margin: 0.1vw 0.2vw;
-	border-radius: 50%;
+
+
 }
 .fa:hover {
 	opacity: 0.7;
@@ -175,12 +175,17 @@ p1{
 	color: black;
 }
 
+@media screen and (max-width: 1000px) {
+.fa{
 
+}
+}
 /* BLOG and KOMANDA cards*/
 
 .blogcolumn {
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 16px;
 	width: 60%;
 }
 @media screen and (max-width: 1000px) {
