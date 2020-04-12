@@ -1,3 +1,4 @@
+/* All texts*/ 
 h1 {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: black;
@@ -10,20 +11,32 @@ h2 {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: black;
 	text-align: center;
-	font-size:1vw;
+	font-size:1.25vw;
 	margin-left: auto;
 	margin-right: auto;
 }
+h5{
+	font-family: "Lucida Console", Monaco, monospace;
+	color: black;
+}
 p{
 	font-family: "Lucida Console", Monaco, monospace;
-	text-align: center;
+	text-align: justify;
+	font-size: 1vw;
 }
-.center {
-	display: block;
+p1{
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: justify;
+	font-size: 0.85vw;
+}
+.maintext{
 	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
 }
+
+/*TOP NAVIGATION BAR*/
+
 /* Style the top navigation bar */
 .navbar {
 	width: 60%;
@@ -75,7 +88,9 @@ p{
   }
 
 }
-/*footer*/
+
+/*FOOTER*/
+
 .footer {
 	width: 60%;
 	margin-left: auto;
@@ -114,6 +129,27 @@ p{
 }
 
 
+/* BLOG and KOMANDA cards*/
+
+.blogcolumn {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+.stuffphoto {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
  /* Three cards */
 .column {
 	float: center;
@@ -149,7 +185,7 @@ p{
 	display: table;
 }
 .title {
-	color: grey;
+	color: gold;
 }
 
 

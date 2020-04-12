@@ -31,9 +31,9 @@ function myFunction() {
 }
 </script>
 
-<img src="Logo.jpg" alt="Logo" class="center">
+
 <div class = "maintext">
-	<h1>Apie mus</h1>
+	<h1>Aš ne viena</h1>
 
 	<p>Unikali - tai ambicingų merginų projektas, siekiantis atverti panelėms duris į platų profesijų pasaulį, sugriaunant Lietuvoje įsivyravusius mitus. Mūsų tikslas - įkvėpti moksleives judėti tikslo link, nepaisant visuomenės suformuotų "normų". Taip pat merginos bus supažindintos su sėkmingų moterų istorijomis skirtingose industrijose, edukuotos įvairiais šiuo laikotarpiu rūpimais klausimais bei turės platformą, kurioje kiekvienas balsas yra svarbus!</p>
 
