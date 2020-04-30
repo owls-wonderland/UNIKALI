@@ -29,6 +29,10 @@ p1{
 	text-align: justify;
 	font-size: 0.85vw;
 }
+ul{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 1vw;
+}
 
 
 .maintext{
@@ -60,6 +64,9 @@ p{
 }
 p1{
 	
+	font-size: 15px;
+}
+ul{
 	font-size: 15px;
 }
 .links{
